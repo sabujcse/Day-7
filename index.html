@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <div class="container">
+          <div class="row">
+                <div class="col-sm-6">
+                      <hr/>
+                    <form action="demo.html" method="post">
+
+                    <div class="form-group">
+                        <label for="firstName" >First Name</label>
+                           <input type="text" name="first_name" id="firstName" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="secondtName">Last Name</label>
+                        <input type="text" name="last_name" id="secondtName" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email_address">Email Address</label>
+                        <input type="email" name="email_address" id="email_address" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="number" name="phone_number" id="phone_number" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date_of_birth">Date Of Birth</label>
+                        <input type="date" name="date_of_birth" id="date_of_birth" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label><input type="radio" name="gender" value="male">Male</label>
+                        <label><input type="radio" name="gender" value="female">Female</label>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Address</label>
+                        <textarea name="address" id="address" class="form-control" rows="5"></textarea>
+
+                    </div>
+                    <div class="form-group">
+                        <label>District Name</label>
+                        <select  name="district_name" class="form-control">
+                            <option>------Select District Name------</option>
+                            <option>Jessor</option>
+                            <option>Dhaka</option>
+                            <option>Khulna</option>
+                            <option>Shatkhira</option>
+                            <option>Foridpur</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+                         <label>Image</label>
+                        <input type="file" name="image" accept="image/*" multiple/>
+                    </div>
+
+
+
+
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" value="agree" class="form-check-input">HTML
+                        </label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" value="agree" class="form-check-input">CSS
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" value="agree" class="form-check-input">PHP
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                         <input type="submit" name="btn" value="submit" class="btn btn-success btn-block">
+                    </div>
+                    </form>
+
+                </div>
+          </div>
+      </div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
